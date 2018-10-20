@@ -9,9 +9,10 @@
 
     <TextView
         android:id="@+id/flashcard_question"
-        android:layout_width="match_parent"
+        android:layout_width="340dp"
         android:layout_height="200dp"
-        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@id/choice1"
+        android:layout_alignStart="@id/choice1"
         android:layout_alignParentTop="true"
         android:gravity="center"
         android:background="@drawable/solid_color_shape"
@@ -27,12 +28,51 @@
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:gravity="center"
         android:background="@drawable/solid_color_shapee"
+        android:gravity="center"
         android:text="Barack Obama"
         android:textAlignment="center"
         android:textColor="#0000FF"
         android:textSize="40sp"
         android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/choice1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="235dp"
+        android:background="#ffb4a4"
+        android:textColor="#0000FF"
+        android:text="Bill Clinton"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/choice2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp"
+        android:background="#ffb4a4"
+        android:textColor="#0000FF"
+        android:text="George H.W. Bush"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/choice3"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:background="#ffb4a4"
+        android:text="Barack Obama"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="30sp" />
 
 </RelativeLayout>
