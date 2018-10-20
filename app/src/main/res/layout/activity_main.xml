@@ -12,9 +12,11 @@
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="86dp"
+        android:gravity="center"
+        android:background="#0000FF"
         android:text="Who is the 44th President of the United States?"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="40sp" />
 
     <TextView
@@ -23,9 +25,11 @@
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="54dp"
+        android:gravity="center"
+        android:background="#ffdab9"
         android:text="Barack Obama"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="40sp"
         android:visibility="invisible" />
 
