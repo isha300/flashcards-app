@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
@@ -13,10 +14,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:background="#0000FF"
+        android:background="@drawable/solid_color_shape"
+        android:elevation="10dp"
         android:text="Who is the 44th President of the United States?"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#a4abff"
         android:textSize="40sp" />
 
     <TextView
@@ -26,10 +28,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:background="#ffdab9"
+        android:background="@drawable/solid_color_shapee"
         android:text="Barack Obama"
         android:textAlignment="center"
-        android:textColor="#228B22"
+        android:textColor="#0000FF"
         android:textSize="40sp"
         android:visibility="invisible" />
 
