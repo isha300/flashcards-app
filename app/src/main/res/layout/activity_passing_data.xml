@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassingDataActivity">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:background="@drawable/solid_color_shape"
+        android:elevation="10dp"
+        android:text="What country is most populated?"
+        android:textAlignment="center"
+        android:layout_marginTop ="15dp"
+        android:textColor="#a4abff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/solid_color_shapee"
+        android:gravity="center"
+        android:text="China"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible" />
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/choice1"-->
+    <!--android:layout_width="330dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="#ffb4a4"-->
+    <!--android:text="Bill Clinton"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#0000FF"-->
+    <!--android:textSize="30sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/choice2"-->
+    <!--android:layout_width="330dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="169dp"-->
+    <!--android:background="#ffb4a4"-->
+    <!--android:text="George H.W. Bush"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#0000FF"-->
+    <!--android:textSize="30sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/choice3"-->
+    <!--android:layout_width="330dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="100dp"-->
+    <!--android:background="#ffb4a4"-->
+    <!--android:text="Barack Obama"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#0000FF"-->
+    <!--android:textSize="30sp" />-->
+
+    <ImageView
+        android:id="@+id/myBtn"
+        android:layout_width="57dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="36dp"
+        android:src="@drawable/ic_plus_icon" />
+
+</RelativeLayout>
