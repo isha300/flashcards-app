@@ -1,7 +1,7 @@
 ## Flashcards
 
 ### App Description
-This app is a flashcard app that asks a question and then shows the answer when the question is clicked. 
+This app is a flashcard app that shows a question and its answer when the question is clicked, as well as allows the user to add flashcards to the set.  
 
 ## Lab 2
 
