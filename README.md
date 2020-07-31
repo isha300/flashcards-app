@@ -6,7 +6,7 @@ This flashcards app allows the user to add flashcards with a question and answer
 ## Lab 4
 
 ### App Walk-through
-<img src="https://media.giphy.com/media/1iRejAlivQI2UJNAAh/giphy.gif" width=200><br>
+<img src="https://media.giphy.com/media/cl7kxmdqh4snyeP6JM/giphy.gif" width=200><br>
 
 ## User Stories
 - [x] User sees a transition animation when going from the main screen to the add card screen.
@@ -16,17 +16,13 @@ This flashcards app allows the user to add flashcards with a question and answer
 ## Lab 3
 
 ### App Walk-through
-<img src="https://media.giphy.com/media/51Ww5K09OfSy5cFhY2/giphy.gif" width=200><br>
+<img src="https://media.giphy.com/media/izadDYZCGmNgzcbikB/giphy.gif" width=200><br>
 
 ## User Stories
 - [x] User can create a card and still see their created card when the app is relaunched.
 - [x] User can create muliple cards and browse through all created cards
 
 ## Lab 2
-
-### App Walk-through
-
-<img src="https://media.giphy.com/media/iO7H63LtUchUgFgYE1/giphy.gif" width=200><br>
 
 ## User Stories
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
@@ -36,9 +32,6 @@ This flashcards app allows the user to add flashcards with a question and answer
 - [x] Push your progress to GitHub!
 
 ## Lab 1
-
-### App Walk-through
-<img src="https://media.giphy.com/media/9xglqpOpeB6lr4kDJT/giphy.gif" width=200><br>
 
 ## User Stories
 - [x] Create New Project in Android Studio
